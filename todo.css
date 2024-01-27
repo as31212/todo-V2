@@ -1,6 +1,6 @@
 :root{
     --background-color:linear-gradient(to right, #000000, #333333);
-    --nav-color:red;
+    --nav-color:darkred;
     --nav-text-color:white;
     --nav-hover-color:#001f3f;
 }
@@ -94,4 +94,25 @@ background-color: var(--nav-hover-color);
 max-height: auto;
 border: none;
 text-align: center;
+}
+#Entries h3{
+    color: var(--nav-text-color);
+}
+#Entries p{
+    color: var(--nav-text-color);
+}
+.edit-icon{
+    scale: 200%;
+    margin: 2em ;
+    color: var(--nav-text-color);
+}
+.check-icon{
+    scale: 370%;
+    margin: 2em;
+    color: green;
+}
+.remove-icon{
+    scale: 340%;
+    margin: 2em;
+    color: red;
 }
