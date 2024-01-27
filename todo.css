@@ -38,6 +38,7 @@ header{
     color: var(--nav-text-color);
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 header a{
     color: var(--nav-text-color);
@@ -91,7 +92,7 @@ button:hover{
 }
 #Entries{
 background-color: var(--nav-hover-color);
-max-height: auto;
+height: auto;
 border: none;
 text-align: center;
 }
