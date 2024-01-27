@@ -93,4 +93,5 @@ button:hover{
 background-color: var(--nav-hover-color);
 max-height: auto;
 border: none;
+text-align: center;
 }
