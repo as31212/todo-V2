@@ -95,6 +95,7 @@ background-color: var(--nav-hover-color);
 height: auto;
 border: none;
 text-align: center;
+min-height: 100vh;
 }
 #Entries h3{
     color: var(--nav-text-color);
